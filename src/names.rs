@@ -19,4 +19,3 @@ struct Version {
     tags: Vec<String>,
 }
 
-
