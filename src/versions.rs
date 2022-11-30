@@ -2,14 +2,13 @@ use crate::tags::Tags;
 use crate::names::Names;
 use serde_derive::{Deserialize, Serialize};
 
-
 pub trait Data {}
 
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct VersionData {
-    tags_data: Tags,
-    names_data: Names,
+    pub tags_data: Tags,
+    pub names_data: Names,
 }
 
 #[derive(Deserialize, Serialize, Debug)]
@@ -18,7 +17,7 @@ enum FileType {
     NameFile(Names),
 }
 
-fn read_versions_data(folder: String) -> VersionData {
+pub fn read_versions_data(folder: String) -> VersionData {
     let tags_filepath = folder.clone() + "tags.json";
     let names_filepath = folder + "names.json";
 

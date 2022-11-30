@@ -1,0 +1,14 @@
+{
+	"tags": {
+		"training": {
+			"artifact_name": "artifact_1",
+			"version": "v1",
+			"filepath": "test_filepath"
+		},
+		"validation": {
+			"artifact_name": "artifact_2",
+			"version": "v1",
+			"filepath": "test_filepath_2"
+		}
+	}
+}

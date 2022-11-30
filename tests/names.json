@@ -1,0 +1,25 @@
+{
+	"names": {
+		"artifact_1": {
+			"name": "artifact_1",
+			"versions": {
+				"1": {
+					"version": "1",
+					"filepath": "test_filepath",
+					"tags": ["training"]
+				}
+			}
+		},
+		"artifact_2": {
+			"name": "artifact_2",
+			"versions": {
+				"1": {
+					"version": "1",
+					"filepath": "test_filepath_2",
+					"tags": ["validation"]
+				}
+			}
+		}
+
+	}
+}
